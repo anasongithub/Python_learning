@@ -7,7 +7,7 @@ elif(age <=0):
 
 else: 
     print("Teen")
-
+#elif
 names = ["anas", "saad", "talha", "areeba", "adeeba", "yumna"]
 parents = ["ammhi", "papa", "mama g", "annhi"]
 input = input("Enter Name: ")
@@ -17,3 +17,12 @@ elif(input.upper() in [parent.upper() for parent in parents]):
     print(f"{input} is a parent")
 else:
     print("get lost")
+
+#nested if else
+if(age >= 18):
+    if(age >= 40):
+        print("you old, take care of yourself")
+    else:
+        print("You can do whatever")
+else:
+    print("you a child")

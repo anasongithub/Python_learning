@@ -1,4 +1,4 @@
-# Python Learning & Practice Hub
+# Python Learning & Practice Repo
 
 Welcome to your Python learning repository! This project contains practice scripts and exercises organized by topic.
 

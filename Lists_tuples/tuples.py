@@ -1,10 +1,20 @@
-#immutable dataype
+# =====================================================================
+# Topic: Tuples
+# Description: Practice with Python tuples, which are ordered, 
+#              immutable sequences used to store collections of data.
+# =====================================================================
+
+# --- 1. Tuple Initialization ---
+# Tuples are defined using parentheses () and are immutable (cannot be changed once created)
 t = ('Hello', 1, 2.2, False)
 print(t)
 print(type(t))
-n = (3, 1, 2 ,5,2,6,3,34,6,36,)
+
+# Defining a tuple of integers (with a trailing comma, which is valid Python syntax)
+n = (3, 1, 2, 5, 2, 6, 3, 34, 6, 36)
 print(n.count(2))
-# Tuple methods examples
+
+# --- 2. Tuple Methods and Built-in Functions ---
 
 # 1. index() - Returns the index of the first occurrence of a value
 index_of_2 = n.index(2)

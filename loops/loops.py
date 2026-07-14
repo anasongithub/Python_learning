@@ -29,9 +29,33 @@
 #             print("NOT A PRIME")
 
 #factorial
-number = int(input("Enter a number to check for factorial: "))
-factorial = 1
-for i in range(1, number + 1):
-    factorial *=  i
-print(f"factorial of {number} is {factorial}")
-    
+# number = int(input("Enter a number to check for factorial: "))
+# factorial = 1
+# for i in range(1, number + 1):
+#     factorial *=  i
+# print(f"factorial of {number} is {factorial}")
+
+#Print pattern
+# n = int(input("enter a number: "))
+# for i in range(n):
+#     for j in range(n):
+#         if(((i != 0) and (i != n - 1))):
+#             if((j != 0) and (j != n - 1)):
+#                 print("  ", end="")
+#             else:
+#                 print("* ", end="")
+#         else:
+#             print("* ", end="")
+#     print("\n", end="")
+
+#same pattern with one loop
+
+# for i in range(1, n + 1):
+#     if(i == 1 or i == n):
+#         print("*"* n, end="")
+#     else:
+#         print("*", end="")
+#         print(" "* (n-2), end="")
+#         print("*", end="")
+#     print("")
+
